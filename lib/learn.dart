@@ -40,7 +40,7 @@ class Learn extends StatelessWidget {
             ),
             
             Padding(
-              padding: const EdgeInsets.only(top: 50,bottom: 0),
+              padding: const EdgeInsets.only(top: 50,bottom: 5),
               child: Container(
                 decoration: BoxDecoration(color: Colors.white,
                     borderRadius: BorderRadius.only(topLeft: Radius.circular(30),topRight:Radius.circular(30) ),
