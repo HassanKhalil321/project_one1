@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'learn.dart';
 import 'TakeCode.dart';
 
+
 void main() {
   runApp(const MyApp());
 }
@@ -75,7 +76,7 @@ class MyHomePage extends StatelessWidget {
               child: TextButton(
                   onPressed: () {
                     Navigator.of(context)
-                        .push(MaterialPageRoute(builder: (context) => Learn()));
+                        .push(MaterialPageRoute(builder: (context) => const  Learn()));
                   },
                   child: const Row(
                     children: [

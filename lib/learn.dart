@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:week4/KO.dart';
-import 'package:week4/main.dart';
+import 'KO.dart';
 import 'column.dart';
 import 'icons.dart';
 import 'row.dart';
 import 'elevatedButton.dart';
 import 'flutterIcon.dart';
-
+import 'main.dart';
 
 class Learn extends StatelessWidget {
   const Learn({super.key});
@@ -15,6 +14,7 @@ class Learn extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+
         backgroundColor: Color.fromRGBO(23, 15, 84, 1.0),
         body: SingleChildScrollView(
             child: Column(
